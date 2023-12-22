@@ -5,10 +5,10 @@
   box-sizing: border-box;
 }
 
-html { 
-    background: url(/assets/images/sky.jpg) no-repeat center center fixed; 
-    background-size:contain;
-  }
+html {
+  background: url("assets/images/sky.jpg") no-repeat center center fixed;
+  background-size: contain;
+}
 
 @font-face {
   src: url("assets/fonts/poppins/Poppins-Medium.ttf");
