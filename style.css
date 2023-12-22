@@ -6,7 +6,9 @@
 }
 
 body {
-  background: #222;
+  /* background: #dacbcb; */
+  background-image: url(/assets/images/sky.jpg);
+  background-size: cover;
 }
 
 @font-face {
@@ -16,7 +18,7 @@ body {
 
 .card {
   width: 90%;
-  max-width: 600px;
+  max-width: 550px;
   background: linear-gradient(135deg, rgb(50 100 255), rgb(150 150 0));
   color: #fff;
   margin: 100px auto 0;
@@ -119,6 +121,6 @@ body {
   display: none;
 }
 
-.weatherDesc{
-    color:lavenderblush;
+.weatherDesc {
+  color: lavenderblush;
 }
