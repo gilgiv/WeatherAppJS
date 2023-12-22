@@ -18,8 +18,9 @@ async function checkWeather(city) {
         document.querySelector(".humidity").innerHTML = data.main.humidity + " %";
         document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
 
-        const weatherDescription = data.weather[0].main.toLowerCase();
-        weatherIcon.src = `assets/images/${weatherDescription}.png`;
+        const weatherMain = data.weather[0].main.toLowerCase();
+        const weatherDescription = data.weather[0].description;
+        weatherIcon.src = `assets/images/${weatherMain}.png`;
         document.querySelector(".weatherDesc").innerHTML = weatherDescription;
 
         document.querySelector(".weather").style.display = "block";
